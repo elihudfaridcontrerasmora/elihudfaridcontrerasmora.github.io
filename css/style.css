@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+    background-color: #fdf0d5;
+    color: #013a63;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    font-family: "Bebas Neue", sans-serif;
+    height: auto;
+    letter-spacing: 10px;
+}
+nav{
+    background-color: #780000;
+    text-align: center;
+}
+nav ul li, nav a img{
+    list-style-type: none;
+    display: inline-block;
+    background-color:#C1121F;
+    width: 10%;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px;
+}
+footer a img{
+    width: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul li a:link, nav ul li a :visited{
+    text-decoration: none;
+    color:#aaf683;
+}
+nav ul li:hover{
+    background-color: #8d99ae;
+}
+section{
+    background-color:#ecc8af;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    overflow-x: auto;
+    width: 80%; 
+}
+h2{
+    margin-bottom: 20px;
+    font-family: "Encode Sans SC", sans-serif;
+    font-size: 30px;
+    color: red;
+    letter-spacing: 4px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+footer{
+   text-align: center;
+    height: 20px;
+    background-color: #432818;
+    font-size: 18px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+    }
+h1,h6{
+    text-align: center;
+}
+
+h6{
+    background-color: #936639;
+}
+#tabla_1{
+    background-color: aquamarine;
+    border: 3px solid red;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_1 th{
+    font-size: 20px;
+    background-color:#a99985;
+    color: #094074;
+}
+#tabla_1 th, #tabla_1 td{
+    border: 3px solid #455e89;
+    padding: 3px;
+}
+#tabla_cebras{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+#tabla_cebras th{
+    background-color: cadetblue;
+}
+#tabla_cebras td, #tabla_cebras th{
+    padding: 10px;
+    border-color: darkgreen;
+    border-style: solid;
+}
+#tabla_cebras tbody tr:nth-child(even){
+    background-color: darkgoldenrod
+}
+#tabla_cebras tbody tr:nth-child(odd){
+    background-color: darksalmon;
+}
+#tabla_hover{
+    width: 70%;
+    background-color: darkgreen;
+    color:white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#tabla_hover th{
+    background-color: dodgerblue;
+    color: darkslateblue;
+}
+#tabla:hover td, #tabla:hover th{
+    border-width: 3px;
+    border-color: aquamarine;
+    border-style: solid;
+    padding: 2px;
+}
+#tabla_hover tr:hover{
+    background-color: yellow;
+    color: black;
+}
+img{
+    width: 100%;
+    margin-top: 30px;
+}
+#img-border-redodndo{
+    border-radius: 50%;
+}
+main section{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    line-height: 1.5em;
+}
+.img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    margin-top: 20px;
+}
+.img_flotante{
+    width: 30%;
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+}
+.alineacion{
+    float: right;
+    margin: 0;
+}
+#fondo_box{
+    background-image: url("../imagenes/lighthouse-6785763_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+.img_filter{
+    text-align: center;
+}
+.img_filter p, .img_filter h2{
+    text-align: justify;
+}
+.img_filter img{
+    width: 20%;
+    margin: 20px;
+}
+.section-filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section h2{
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 30px;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: rosybrown;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+label{
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 10px;
+}
+input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: mintcream;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 10px;
+}
+input[type-sumit]{
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: darkgreen;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus{
+    background-color: bisque;
+    color: green;
+}
+input[type=radio], input[type=chexkbox]{
+    width: 10%
+}

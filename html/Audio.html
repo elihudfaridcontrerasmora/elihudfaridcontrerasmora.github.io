@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title> Audio en html </title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style type="text/css">
+            main{
+                text-align: center;
+            }
+            main section{
+                width: 40%;
+                display: inline-block;
+                height: 400px;
+                margin-left: 20px;
+                margin-right: 20px;
+                overflow-y: auto;
+            }
+            main h2, main p{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>AUDIOS</h1>
+        </header>
+        <nav>
+          <a href="../index.html"><img src="../imagenes/casa.png"></a>
+            <ul>
+                <li><a href="../html/Formatos.html"> Formatos </a></li>
+                <li><a href="../html/listas.html"> Listas </a></li>
+                <li><a href="../html/Enlaces.html"> Enlaces </a></li>
+                <li><a href="../html/tablas.html"> Tablas </a></li>
+                <li><a href="../html/imagenes.html"> Imagenes </a></li>
+                <li><a href="../html/Audio.html"> Audio </a></li>
+                <li><a href="../html/Video.html"> Video </a></li>
+                <li><a href="../html/Formulario.html"> Formulario </a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Audio Simple</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime blanditiis adipisci perspiciatis ipsum libero debitis, voluptate cum minima temporibus deserunt? Officia dignissimos dolore distinctio quaerat, labore atque unde delectus alias ea deserunt nulla, magni consectetur necessitatibus deleniti molestiae asperiores libero quis, quod. Repudiandae adipisci soluta tempore officiis repellat repellendus, pariatur libero alias obcaecati optio perspiciatis, praesentium expedita dolores numquam consequatur non quisquam iusto natus! Ut quam exercitationem error, mollitia reprehenderit atque ipsam commodi eveniet, suscipit quod. Voluptates aspernatur ullam voluptatem obcaecati tenetur minus vitae totam dolorum, suscipit temporibus placeat explicabo ipsa fugiat, deleniti doloribus, nobis dolores. Eaque minima inventore, odit.</p>
+                <audio controls>
+                    <source src="../audio/Time%20In%20A%20Bottle.mp3" type="audio/mp3">
+                    El navegador no soporta el formato de audio
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con autroplay y silenciado</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptate quas libero iure, nam nobis mollitia, distinctio esse, pariatur commodi nulla modi! Porro quas voluptates, harum esse! Voluptas voluptatem magnam itaque placeat perferendis repellat quasi, quisquam laboriosam quaerat, illum quos id inventore consectetur sequi a beatae impedit saepe eaque. Necessitatibus id neque consequuntur reiciendis eius omnis veritatis ea aut laboriosam quasi obcaecati vel, veniam a repudiandae incidunt adipisci suscipit quam quod at corrupti laudantium nostrum error! Nihil porro quibusdam corporis. Repellat consectetur fugiat numquam suscipit sed pariatur dicta nisi, fugit voluptates nulla magni aut soluta quaerat dolor laborum aliquam voluptatem?</p>
+                <audio controls autoplay muted>
+                    <source src="../audio/Time%20In%20A%20Bottle.mp3" type="audio/mp3">
+                    El navegador no soporta el formato de audio
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con reporudccion ciclica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptate quas libero iure, nam nobis mollitia, distinctio esse, pariatur commodi nulla modi! Porro quas voluptates, harum esse! Voluptas voluptatem magnam itaque placeat perferendis repellat quasi, quisquam laboriosam quaerat, illum quos id inventore consectetur sequi a beatae impedit saepe eaque. Necessitatibus id neque consequuntur reiciendis eius omnis veritatis ea aut laboriosam quasi obcaecati vel, veniam a repudiandae incidunt adipisci suscipit quam quod at corrupti laudantium nostrum error! Nihil porro quibusdam corporis. Repellat consectetur fugiat numquam suscipit sed pariatur dicta nisi, fugit voluptates nulla magni aut soluta quaerat dolor laborum aliquam voluptatem?</p>
+                <audio controls loop>
+                    <source src="../audio/Time%20In%20A%20Bottle.mp3" type="audio/mp3">
+                    El navegador no soporta el formato de audio
+                </audio>
+            </section>
+            <section>
+               <h2>Audio de reposicion: Ivoox</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptate quas libero iure, nam nobis mollitia, distinctio esse, pariatur commodi nulla modi! Porro quas voluptates, harum esse! Voluptas voluptatem magnam itaque placeat perferendis repellat quasi, quisquam laboriosam quaerat, illum quos id inventore consectetur sequi a beatae impedit saepe eaque. Necessitatibus id neque consequuntur reiciendis eius omnis veritatis ea aut laboriosam quasi obcaecati vel, veniam a repudiandae incidunt adipisci suscipit quam quod at corrupti laudantium nostrum error! Nihil porro quibusdam corporis. Repellat consectetur fugiat numquam suscipit sed pariatur dicta nisi, fugit voluptates nulla magni aut soluta quaerat dolor laborum aliquam voluptatem?|</p>
+                <iframe src="https://www.ivoox.com/player_ej_38846_6_1.html?c1=3a7b95" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section>
+               <h2>Audio de repositorio: Spootify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptate quas libero iure, nam nobis mollitia, distinctio esse, pariatur commodi nulla modi! Porro quas voluptates, harum esse! Voluptas voluptatem magnam itaque placeat perferendis repellat quasi, quisquam laboriosam quaerat, illum quos id inventore consectetur sequi a beatae impedit saepe eaque. Necessitatibus id neque consequuntur reiciendis eius omnis veritatis ea aut laboriosam quasi obcaecati vel, veniam a repudiandae incidunt adipisci suscipit quam quod at corrupti laudantium nostrum error! Nihil porro quibusdam corporis. Repellat consectetur fugiat numquam suscipit sed pariatur dicta nisi, fugit voluptates nulla magni aut soluta quaerat dolor laborum aliquam voluptatem?|</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Pll8UGMARzFeHZ7FczVd7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section>
+               <h2>Lista de reproduccion: Spootify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptate quas libero iure, nam nobis mollitia, distinctio esse, pariatur commodi nulla modi! Porro quas voluptates, harum esse! Voluptas voluptatem magnam itaque placeat perferendis repellat quasi, quisquam laboriosam quaerat, illum quos id inventore consectetur sequi a beatae impedit saepe eaque. Necessitatibus id neque consequuntur reiciendis eius omnis veritatis ea aut laboriosam quasi obcaecati vel, veniam a repudiandae incidunt adipisci suscipit quam quod at corrupti laudantium nostrum error! Nihil porro quibusdam corporis. Repellat consectetur fugiat numquam suscipit sed pariatur dicta nisi, fugit voluptates nulla magni aut soluta quaerat dolor laborum aliquam voluptatem?|</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3ximwR0YA30BG3nKIoevRv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Elihud Farid Contreras Mora</h6>
+            <a href="https://www.facebook.com/elihudfarid.conteras" target="_blank"><img src="../imagenes/facebook.png"></a>
+               <a href="https://www.instagram.com/lyl_tred/" target="_blank"><img src="../imagenes/instragram.png"></a>
+        </footer>
+    </body>
+</html>
